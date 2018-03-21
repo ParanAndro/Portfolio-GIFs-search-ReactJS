@@ -64,7 +64,7 @@ App = React.createClass({
 					<Search onSearch={this.handleSearch}/>
 				<Gif
 					loading={this.state.loading}
-					url={this.state.gif.sourceUrl}
+					url={this.state.gif.url}
 					sourceUrl={this.state.gif.sourceUrl}
 				/>
 			</div>
