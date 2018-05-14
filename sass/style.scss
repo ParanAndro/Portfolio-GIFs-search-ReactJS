@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+$fonts: Lato, sans-serif;
+body {
+font: 100% $fonts;
+background-color: #CCCCFF;
+	h1 {
+	color: #330099;
+	}
+	p {
+	font-weight: bold;
+	color: #666699;
+	}
+}
